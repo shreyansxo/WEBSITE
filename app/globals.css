@@ -1,26 +1,36 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* --- Safe custom styles --- */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Use Tailwind for colors — no color or background declarations here */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: inherit;            /* use current text color from Tailwind */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: none;     /* no underline */
+  opacity: 0.8;              /* slight fade on hover */
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
 }
