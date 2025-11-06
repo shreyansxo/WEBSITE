@@ -37,7 +37,7 @@ export default function About() {
             href="/"
             className="text-[22px] font-semibold tracking-tight hover:text-[#A6BFFA] transition"
           >
-            Shreyans Joshi
+            shreyans joshi
           </Link>
 
           <nav
@@ -51,13 +51,13 @@ export default function About() {
               href="/"
               className="hover:text-[#A6BFFA] transition-colors duration-200"
             >
-              About
+              about
             </Link>
             <Link
               href="/writings"
               className="hover:text-[#A6BFFA] transition-colors duration-200"
             >
-              Writings
+              writings
             </Link>
             <button
               onClick={() => setDark(!dark)}
@@ -77,7 +77,7 @@ export default function About() {
     dark ? "text-[#F5F5F5]" : "text-[#1A1A1A]"
   )}
 >
-  About me
+  about me
 </h1>
 
 
@@ -109,7 +109,7 @@ export default function About() {
 
         {/* Portrait */}
         <div className="my-24 text-center">
-          <div className="relative mx-auto w-[300px] h-[350px] overflow-hidden rounded-xl shadow-lg">
+          <div className="relative mx-auto w-600px] h-[650px] overflow-hidden rounded-xl shadow-lg">
             <Image
               src="/portrait.png"
               alt="Photo of Shreyans Joshi"
@@ -117,7 +117,7 @@ export default function About() {
               className="object-cover"
             />
           </div>
-          <p className="text-sm text-neutral-400 mt-3">Hi, it’s me.</p>
+          <p className="text-sm text-neutral-400 mt-3">hi, it’s me.</p>
         </div>
       </div>
     </main>

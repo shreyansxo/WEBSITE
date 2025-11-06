@@ -36,7 +36,7 @@ export default function Writings() {
             href="/"
             className="text-[22px] font-semibold tracking-tight hover:text-[#A6BFFA] transition"
           >
-            Shreyans Joshi
+            shreyans joshi
           </Link>
 
           <nav
@@ -50,13 +50,13 @@ export default function Writings() {
               href="/"
               className="hover:text-[#A6BFFA] transition-colors duration-200"
             >
-              About
+              about
             </Link>
             <Link
               href="/writings"
               className="hover:text-[#A6BFFA] transition-colors duration-200"
             >
-              Writings
+              writings
             </Link>
             <button
               onClick={() => setDark(!dark)}
