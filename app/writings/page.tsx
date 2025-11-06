@@ -76,7 +76,7 @@ export default function Writings() {
     dark ? "text-[#F5F5F5]" : "text-[#1A1A1A]"
   )}
 >
-  Writings
+  writings
 </h1>
 
 
