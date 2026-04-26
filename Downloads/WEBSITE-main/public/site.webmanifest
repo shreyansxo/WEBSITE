@@ -1,0 +1,14 @@
+{
+  "name": "Shreyans Joshi",
+  "short_name": "Shreyans",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#111111",
+  "background_color": "#111111",
+  "display": "standalone"
+}
